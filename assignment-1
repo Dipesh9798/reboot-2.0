@@ -1,0 +1,3 @@
+Solution 3--->
+
+mkdir -p A/{B/{G/{K/Reboot.txt},H/{J/Reboot.txt}},C/{I/{J/reboot.txt},J/{L/Reboot.txt}},D/{F/{L/Reboot.txt},E/{M/Reboot.txt}}}

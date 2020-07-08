@@ -165,4 +165,37 @@ x=[1m[96mint[m([1m[96minput[m([95m"Enter first number: "[m))
 y=[1m[96mint[m([1m[96minput[m([95m"Enter second number: "[m))
 [1m[96mprint[m[46m([m[95m"Sum of the given number is:{}"[m,.format(x+y)[46m)[m
 
-[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H5,51[10CAll"sum.py" 6L, 158C[5;51H[?25h[?25l[24;53H~@k[5;51H[24;53H   [5;50H[5;6H([39C[46m([mx+y[46m)[m)[24;66H0[5;50H[?25h[?25l[24;53H~@k[5;50H[24;53H   [5;49H(x+y)[24;6
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H5,51[10CAll"sum.py" 6L, 158C[5;51H[?25h[?25l[24;53H~@k[5;51H[24;53H   [5;50H[5;6H([39C[46m([mx+y[46m)[m)[24;66H0[5;50H[?25h[?25l[24;53H~@k[5;50H[24;53H   [5;49H(x+y)[24;65H49[5;49H[?25h[?25l[24;53H~@k[5;49H[24;53H   [5;48H[24;66H8[5;48H[?25h[?25l[24;53H~@k[5;48H[24;53H   [5;47H[24;66H7[5;47H[?25h[?25l[24;53H~@k[5;47H[24;53H   [5;46H[46m([mx+y[46m)[m[24;66H6[5;46H[?25h[?25l[24;53H~@k[5;46H[24;53H   [5;45Ht(x+y)[24;66H5[5;45H[?25h[?25l[24;53H~@k[5;45H[24;53H   [5;44H[24;66H4[5;44H[?25h[?25l[24;53H~@k[5;44H[24;53H   [5;43H[24;66H3[5;43H[?25h[?25l[24;53H~@k[5;43H[24;53H   [5;42H[24;66H2[5;42H[?25h[?25l[24;53H~@k[5;42H[24;53H   [5;41H[24;66H1[5;41H[?25h[?25l[24;53H~@k[5;41H[24;53H   [5;40H[24;66H0[5;40H[?25h[?25l[24;53H~@k[5;40H[24;53H   [5;39H[24;65H39[5;39H[?25h[?25l[24;53Hi[5;39H[24;53H [5;39H[24;1H[1m-- INSERT --[m[24;14H[K[24;63H5,39[10CAll[5;39H[?25h[?25l.format(x+y)[5;51H[K[24;66H8[5;38H[?25h[24;1H[K[5;37H[?25l[24;53H^[[5;37H[24;53H  [5;38H[24;63H5,37[10CAll[5;37H[?25h[?25l[24;53H:[5;37H[24;53H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"sum.py" 6L, 157C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ vim sum.py[5Pmysum
+Enter first number: 56
+Enter second number: 44
+Sum of the given number is:100
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ ls
+mycmd.txt  [0m[01;32msum.py[0m  typescript
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ git add .
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ git commit -m ""a"a"[1P"d"d"e"d"n"[1P" "m"y" "d"i"r"d"h"[1P"[1P"[1P"[1P"[1P"f"i"r"s"t" "c"o"m"m"a"n"d"
+[master 1fc453c] added my first command
+ 3 files changed, 1562 insertions(+)
+ create mode 100644 mycmd/mycmd.txt
+ create mode 100755 mycmd/sum.py
+ create mode 100644 mycmd/typescript
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ 
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0/mycmd[00m$ git push
+Username for 'https://github.com': Dipesh9798
+Password for 'https://Dipesh9798@github.com': 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 13.73 KiB | 937.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Dipesh9798/reboot-2.0.git
+   dd1011d..1fc453c  master -> master
+]0;dipesh@myubuntu: ~/reboot-2.0/mycmd[01;32mdipesh@myubuntu[00m:[01;34m~/reboot-2.0

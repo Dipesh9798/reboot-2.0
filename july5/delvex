@@ -1,0 +1,6 @@
+
+echo "hey user $USER welcome to DelVex"
+sleep 1
+echo "current time is `date +%T` "
+sleep 1
+echo "my name is `uname` and my version is `uname -r` "

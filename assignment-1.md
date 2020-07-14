@@ -112,6 +112,137 @@ Password:
 [Jill@localhost ~]$ ls
 jack1  jack2  Jack.txt  jill1  jill2  Jill.txt
 
+```
+
+## Solution #5 :  play with files and directories 
+
+## (a)create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory 
+```
+[dipesh@localhost ~]$ touch /tmp/{abc.txt,ok,fine,g.txt}
+[dipesh@localhost ~]$ ls /tmp/
+abc.txt
+fine
+g.txt
+ok
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-chronyd.service-izm0oj
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-colord.service-FrSKPf
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-dbus-broker.service-wQr58i
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-earlyoom.service-irJqTf
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-fwupd.service-9GtQQi
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-geoclue.service-FjaSxg
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-ModemManager.service-KJxkig
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-rtkit-daemon.service-1PcFSi
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-switcheroo-control.service-YtRbqg
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-systemd-logind.service-5Lapwh
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-upower.service-aLgm1e
+Temp-9a8c7498-3e87-4338-86b1-c6f0d4783a55
+Temp-9da140d6-c0c0-4f9a-91c8-6a179ccb505c
+tracker-extract-files.1000
+
+
+```
+## (b)create  4  directories   aa aaa aaaa  under  /tmp directory 
+```
+[dipesh@localhost ~]$ mkdir /tmp/{aa,aaa,aaaa}
+[dipesh@localhost ~]$ ls /tmp/
+aa
+aaa
+aaaa
+abc.txt
+fine
+g.txt
+ok
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-chronyd.service-izm0oj
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-colord.service-FrSKPf
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-dbus-broker.service-wQr58i
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-earlyoom.service-irJqTf
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-fwupd.service-9GtQQi
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-geoclue.service-FjaSxg
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-ModemManager.service-KJxkig
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-rtkit-daemon.service-1PcFSi
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-switcheroo-control.service-YtRbqg
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-systemd-logind.service-5Lapwh
+systemd-private-b80e1968a92e4627a5b016cc1f25918f-upower.service-aLgm1e
+Temp-9a8c7498-3e87-4338-86b1-c6f0d4783a55
+Temp-9da140d6-c0c0-4f9a-91c8-6a179ccb505c
+tracker-extract-files.1000
+
+```
+## (c)  give ls command to  list the content of  /tmp directory and  make sure it will only list the content (file|directory)  having 2 char in their name.
+```
+
+```
+
+
+## Solution #7 :    create a shell script
+
+## create a shell script named /root/delvex.sh
+```
+[root@localhost ~]# vim /root/delvex.sh
+
+
+```
+
+##   make sure it will run /bin/sh shell 
+```
+[root@localhost ~]# cat delvex.sh 
+#!/bin/sh
+
+```
+##  a user will be running this script my using a command name opensource
+```
+[root@localhost ~]# vim /usr/bin/opensource
+#!/bin/bash
+
+/root/delvex.sh $1
+~                                                                                                            
+~                                                                                                            
+~                                                                                                            
+~                                                                                                            
+~                                                                                                            
+~                                                                                                                                                                                                              
+~                                                                                                            
+-- INSERT --                                                                               3,18          All
+
+[root@localhost ~]# chmod +x /root/delvex.sh
+[root@localhost ~]# chmod +x /usr/bin/opensource
+
+
+```
+delvex.sh
+```
+#!/bin/sh
+
+if [$# -gt 0]
+then
+	if [$1 == "time"]
+	then
+		echo "current time:`date +%T`"
+	elif [$1 == "user"]
+        then    
+                echo "Users:`users`"
+	elif [$1 == "100"]
+        then    
+		$c=$1
+		while [ $c != 0 ]
+		do
+			echo "$c Hello Delvex"
+			sleep 1
+			c=$(($c-1))
+		done
+	elif [$1 == "windows"]
+        then
+                echo "Shutting Down System..."
+		sleep 2
+		shutdown now
+	fi
+else
+	echo "Name of Kernel: `uname -s`"
+	echo "Version of Kernel: `uname -r`"
+	echo "Current date: `date +'%d/%m/%y'`"
+	echo "Name of OS: `uname -o`"
+	echo "Last Boot Time: `who -b | awk '{print $4}'`"
+fi
 
 ```
 

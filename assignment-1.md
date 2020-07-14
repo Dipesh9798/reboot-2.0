@@ -1,4 +1,4 @@
-**Solution 1-->
+##Solution 1-->
 
 
 
@@ -6,7 +6,7 @@
 
 --------------------------------------------------------------------------------
 
-**Solution 2--->
+##Solution 2--->
 
 >>create a directory without name from command line-->
 >>mkdir " "
@@ -16,7 +16,7 @@
 
 --------------------------------------------------------------------------------
 
-**Solution 3--->
+##Solution 3--->
 
 >>create a directory structure
 
@@ -29,7 +29,7 @@
 
 -------------------------------------------------------------------------------
 
-**Solution 4--->
+##Solution 4--->
 
 create user jack and directories and file
 >>useradd jack
